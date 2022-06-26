@@ -1,0 +1,65 @@
+*{
+  font-family: sans-serif;
+}
+.chatContainer{
+  width: 420px;
+  min-height: 350px;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.chatBtnContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.input{
+  width: 190px;
+  height: 28px;
+  border: 3px #b4d2e8 solid; 
+}
+.button{
+  background: #b4d2e8;
+  border: none;
+  width: 100px;
+  height: 35px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.button:hover{
+  transform: scale(1.05);
+}
+
+.chatRequestContainer{
+  width: 404px;
+  min-height: 285px;
+  border: 3px #b4d2e8 solid; 
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 20px;
+}
+.chatMessage{
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 200px;
+  word-wrap: break-word;
+  border: #b4d2e8 3px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+}
+.messageR{
+  align-self: flex-end;
+}
+.GeoLoc{
+  text-decoration: none;
+}
+.error{
+  color: red;
+  text-transform: uppercase;
+}
